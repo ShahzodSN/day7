@@ -1,0 +1,45 @@
+@media only screen and (min-width: 1100px) {
+    .hero {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        .box {
+            color: white;
+        }
+        .nature {
+            margin: 0 auto;
+            order: -1;
+        }
+    }
+}
+
+@media only screen and (min-width: 780px) {
+    .hero {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        .box {
+            color: white;
+        }
+        .nature {
+            border-radius: 25px;
+            margin: 0 auto;
+            order: -1;
+        }
+    }
+}
+
+@media only screen and (min-width: 380px) {
+    .hero {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        .box {
+            color: white;
+        }
+        .nature {
+            border-radius: 25px;
+            margin: 0 auto;
+        }
+    }
+}
